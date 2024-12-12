@@ -1,0 +1,16 @@
+const allProducts = [
+  { name: 'DKNY Pants', price: 12, image: 'images/pants.jpg', category: ['Clothing'] },
+  { name: 'Shoes', price: 7.4, image: 'images/shoes.jpg', category: ['Shoes', 'New Arrivals'] },
+  { name: 'Hoodie', price: 3.4, image: 'images/tomyHoodie.jpg', category: ['Clothing', 'New Arrivals'] },
+  { name: 'T-shirt', price: 2.5, image: 'images/tshirt.jpg', category: ['Clothing'] },
+  { name: 'Black Bag', price: 2, image: 'images/bag.jpg', category: ['Accessories'] },
+  { name: 'Long Sleeve T-shirt', price: 1, image: 'images/longslevetshirt.jpg', category: ['Clothing'] },
+  { name: 'Green Pants', price: 33, image: 'images/pants2.jpg', category: ['Clothing'] },
+  { name: 'Shoes 2', price: 6, image: 'images/shoes2.jpg', category: ['Shoes'] },
+  { name: 'T-shirt 2', price: 3, image: 'images/tshirt2.jpg', category: ['Clothing', 'New Arrivals'] },
+  { name: 'Silver Watch', price: 120, image: 'images/watch.jpg', category: ['Accessories'] },
+  { name: 'Jacket', price: 5, image: 'images/jacket.jpg', category: ['Clothing'] },
+  { name: 'Another Jacket', price: 5, image: 'images/jacket.jpg', category: ['Clothing'] },
+  { name: 'More Jackets', price: 5, image: 'images/jacket.jpg', category: ['Clothing'] },
+  { name: 'Even More Jackets', price: 5, image: 'images/jacket.jpg', category: ['Clothing'] },
+];

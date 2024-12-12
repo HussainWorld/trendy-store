@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #000;
+  color: white;
+}
+
+#userDisplay {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.account a {
+  margin-left: 17px;
+  word-spacing: 0;
+}
+
+.image-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.image-button img {
+  width: 30px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image-button img:hover {
+  opacity: 0.8; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1.5px solid lightgray;
+}
+
+.logo h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+  border-radius: 22px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  font-weight: bold;
+  padding: 8px;
+  color: black;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #eaeaea;
+}
+
+.banner-content {
+  flex: 1;
+}
+
+.banner h2 {
+  font-size: 36px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.shop-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: white;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.banner-images {
+  flex: 1;
+}
+
+.banner-images img {
+  max-width: 100%;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px; 
+}
+
+.product-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+
+.product-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+.product {
+  text-align: center;
+  width: 200px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #000;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.products-section {
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+  height: 500px;
+}
+
+.products-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #000000;
+  color: #B0B4B7;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+footer p {
+  padding-bottom: 10px;
+  display:inline;
+}
+#footerRight{
+  float: right;
+}
+
+#footer-payment-method {
+  display: flex;           
+  justify-content: center;  
+  gap: 10px;                
+  float: left;              
+}
+
+#footer-payment-method img {
+  width: 40px;
+  height: auto;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.close-cart {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.cart-buttons{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+#totalAmount{
+  color: black;
+  padding-bottom: 10px;
+}
+#cartItems{
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  background-color: #1E1E1E;
+  width: 100%;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+#cartItems::-webkit-scrollbar{
+  width: 0; 
+}
+
+.loginSidebar {
+  height: 55%;
+  width: 0; 
+  position: fixed;
+  top: 0;
+  right: -320px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: right 0.4s ease, width 0.4s ease; 
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.loginSidebar.active {
+  right: 0;
+  width: 250px; 
+}
+
+#loginSidebar::-webkit-scrollbar{
+  width: 0;
+}
+
+.loginSidebar input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  color: black;
+  border-radius: 5px;
+}
+
+.loginSidebar h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#loginBtn {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+#loginBtn img {
+  margin-left: 10px; 
+}
+#loginRegisterDiv{
+  padding-top: 15px;
+}
+.loginRegisterBtm{
+  width: 80px;  
+  height: 35px;
+}
+
+.loginSidebar button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+.loginSidebar button:hover {
+  background-color: lightgray;
+}
+
+
+.bar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 55px; 
+  border-bottom: 1.5px solid lightgray;
+}
+
+.nav-item {
+  color: black; 
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.content-container {
+  position: relative; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.background-img {
+  width: 50%;
+  height: auto; 
+}
+
+
+.text-overlay {
+  position: absolute; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.text-overlay h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.shop-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.shop-button:hover {
+  background-color: black;
+  color: white;
+}
+
+#loginLogoutDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+}
+
+#loginLogoutDiv.hidden {
+  display: none;
+}
+
+#loginLogoutDiv.visible {
+  display: block; 
+  transition: opacity 0.5s; 
+  opacity: 1;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 10px; 
+  padding: 10px 20px;
+  background-color: black; 
+  color: white;
+  text-decoration: none; 
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: lightgray; 
+  transform: scale(1.05);
+}
+
+.content-container img {
+  width: 350px; 
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.content-container img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.pictures-section {
+  padding: 10px;
+  background-color: lightgray; 
+}
+
+.new-arival {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px; 
+  padding: 10px;
+}
+
+.carousel img {
+  height: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.carousel img:hover {
+  transform: scale(1.1);
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
