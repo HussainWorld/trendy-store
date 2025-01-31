@@ -81,8 +81,7 @@ trendy-store-main/
 
 ## Contributing
 
-CoContributions are welcome! Please fork the repository and create a pull request with your changes.
-ntributions are welcome! Please fork the repository and create a pull request with your changes.
+contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 
 ## Contact
