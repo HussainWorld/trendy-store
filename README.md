@@ -90,4 +90,4 @@ For questions or feedback, feel free to reach out.
 
 Email: hussain.nader.it@gmail.com
 
-Happy Shopping! 🛍️
+Happy Shopping Experience! 🛍️
