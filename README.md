@@ -1,6 +1,6 @@
 # [Bahrain Polytechnic](https://hussainworld.github.io/trendy-store-main/)
 
-This project is a website for Bahrain Polytechnic University, created as part of the IT6012 - Web Fundamentals course. The website offers a variety of clothing, allowing users to sign up, add items to their cart, and checkout for a seamless shopping experience.
+This project is a website for Trendy Clothing Store, created as part of the IT6012 - Web Fundamentals Course. The website offers a variety of clothing, allowing users to sign up, add items to their cart, and checkout for a seamless shopping experience.
 
 ![Homepage](images/HomePage.png)
 
