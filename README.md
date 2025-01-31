@@ -83,3 +83,12 @@ trendy-store-main/
 
 CoContributions are welcome! Please fork the repository and create a pull request with your changes.
 ntributions are welcome! Please fork the repository and create a pull request with your changes.
+
+
+## Contact
+
+For questions or feedback, feel free to reach out.
+
+Email: hussain.nader.it@gmail.com
+
+Happy Shopping! 🛍️
